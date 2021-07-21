@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 13px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h4{
+    text-align: right;
+    font-size: 1.5em;
+}
+img{
+    width: 100%;
+    margin: 10px 0;
+}
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+p,h2,h1,a{
+    margin: 7% 0px;
+}
+h2,h1,.logo{
+    color: #01996D;
+}
+.header .logo,
+footer .logo{
+    font-size: x-large;
+    font-weight: 1000;
+}
+button{
+    color: #fff;
+    background-color: #01996D;
+    border: none;
+    margin: 10px 0;
+    padding: 0.5em 1em;
+    text-align: center;
+    border: 1px solid #01996D;
+}
+button:hover{
+    color: #01996D;
+    background: transparent;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a {
+    padding: 0px 9px;
+    color: black;
+}
+.header a:hover{
+    color: #01996D;
+}
+
+
+
+        /*********************************  TOP  *******************************/
+
+.top{
+    height: 100vh;
+    background-image: url('images/background.png');
+    background-size: cover;
+}
+.top .container .text{
+    position: relative;
+    top: 100px;
+    height: 20vh;
+    width: 25vw; 
+}
+
+        /*********************************  MIDDLE  *******************************/
+
+.middle .container .text{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 10%;
+}
+.middle .container .cards{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    gap: 5%;
+}
+.middle .container .cards .card{
+    width: 25%;
+    height: 30%;
+    margin-right: 50px;
+}
+.middle .container .cards .card2{
+    margin-top: 15%;
+}
+.middle .container>p{
+    margin-bottom: 0;
+}
+span{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 12%;
+    color: #01996D;
+    font-size: 80px;
+    opacity: 0.4;
+}
+
+        /*********************************  MIDDLE2  ***************************/
+
+.middle2{
+    background-color: #245852;
+}
+.middle2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle2 .container .text,
+.middle2 .container .text h2{
+    color: #fff;
+    padding: 17px 0;
+}
+.middle2 .container .video img{
+    margin-top: 13%;
+}
+.middle2 .icon {
+    position: relative;
+    height: 36px;
+    width: 36px;
+    bottom: 185px;
+    left: 68%;
+}
+
+        /*********************************  LAST  ***************************/
+
+.last .container{
+    display: flex;
+    padding: 10%;
+}
+.last .container .image {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    margin-right: 5%;
+    background-color: #14554d63;
+    border-radius: 30px;
+
+}
+.last .container .image img{
+    margin: 0;
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+.last .container .text{
+    width: 90%;
+}
+.last .container .image .card{
+    position: absolute;
+    background-color: white;
+    width: 10vw;
+    height: 27vh;
+    padding: 0;
+    margin: 0;
+    bottom: -10%;
+    left: -10%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+    text-align: center;
+}
+.last .container .image .card .lower{
+    text-align: left;
+    margin-left: 15%;
+}
+.last .container .image .card img{
+    width: 40px;
+    height: 40px;
+}
+.last .container .image .card *{
+    font-size: 8px;
+}
+
+        /***************------------------ FOOTER -------------------***-***/
+
+footer{
+    background-color: #245852;
+    padding: 7%;
+    
+}
+footer .container{
+    display: flex;
+    flex-direction: column;  
+}
+footer .container a{
+    color: #fff;
+    margin: 2% 0;
+}
